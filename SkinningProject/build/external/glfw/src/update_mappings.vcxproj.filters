@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\mygithub\ATCA\SkinningProject\build\CMakeFiles\5f6142b36914092778c3c203ae48e874\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\mygithub\ATCA\SkinningProject\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\mygithub\ATCA\SkinningProject\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="F:\mygithub\ATCA\SkinningProject\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="F:\mygithub\ATCA\SkinningProject\build\external\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{832EF919-2601-3445-B036-3E5E20B4A7EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A7B7662D-DE54-300E-98F5-2457179F318F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

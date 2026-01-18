@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\mygithub\ATCA\SkinningProject\build\CMakeFiles\5bedd1b657732e36e870d428a5151781\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{832EF919-2601-3445-B036-3E5E20B4A7EE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

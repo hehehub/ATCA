@@ -1,0 +1,10 @@
+^F:\MYGITHUB\ATCA\SKINNINGPROJECT\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SF:/mygithub/ATCA/SkinningProject -BF:/mygithub/ATCA/SkinningProject/build --check-stamp-file F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

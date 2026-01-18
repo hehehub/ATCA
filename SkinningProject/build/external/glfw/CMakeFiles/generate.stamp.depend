@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/CMake/share/cmake-4.2/Modules/CMakeDependentOption.cmake
+D:/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+D:/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake
+D:/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake
+D:/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+D:/CMake/share/cmake-4.2/Modules/FindThreads.cmake
+D:/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+D:/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake
+D:/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+F:/mygithub/ATCA/SkinningProject/external/glfw/CMake/cmake_uninstall.cmake.in
+F:/mygithub/ATCA/SkinningProject/external/glfw/CMake/glfw3Config.cmake.in
+F:/mygithub/ATCA/SkinningProject/external/glfw/CMakeLists.txt

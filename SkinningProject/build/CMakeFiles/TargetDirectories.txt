@@ -1,0 +1,11 @@
+F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/SkinningProject.dir
+F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/INSTALL.dir
+F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/ALL_BUILD.dir
+F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/ZERO_CHECK.dir
+F:/mygithub/ATCA/SkinningProject/build/external/glfw/CMakeFiles/uninstall.dir
+F:/mygithub/ATCA/SkinningProject/build/external/glfw/CMakeFiles/INSTALL.dir
+F:/mygithub/ATCA/SkinningProject/build/external/glfw/CMakeFiles/ALL_BUILD.dir
+F:/mygithub/ATCA/SkinningProject/build/external/glfw/src/CMakeFiles/glfw.dir
+F:/mygithub/ATCA/SkinningProject/build/external/glfw/src/CMakeFiles/update_mappings.dir
+F:/mygithub/ATCA/SkinningProject/build/external/glfw/src/CMakeFiles/INSTALL.dir
+F:/mygithub/ATCA/SkinningProject/build/external/glfw/docs/CMakeFiles/INSTALL.dir

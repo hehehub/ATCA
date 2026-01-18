@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-4.2/Modules/FindDoxygen.cmake
+D:/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+F:/mygithub/ATCA/SkinningProject/external/glfw/docs/CMakeLists.txt

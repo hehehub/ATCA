@@ -1,0 +1,2196 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/CMake/share/cmake-4.2/Modules/"
+    found: "D:/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\Anaconda\\condabin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "D:\\CMake\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Program Files\\Java\\jdk-23\\bin"
+        - "C:\\Program Files\\Java\\jdk-23\\jre\\bin"
+        - "F:\\database\\MySQL\\MySQL server 8.0\\bin"
+        - "F:\\VMWare\\bin\\"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "F:\\Git\\cmd"
+        - "F:\\Bandizip\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "d:\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "F:\\PyCharm Community Edition 2024.2.2\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\npm"
+        - "F:\\IntelliJ IDEA Community Edition 2024.2.3\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python312\\Scripts"
+        - "D:\\Microsoft VS Code\\bin"
+      ENV{INCLUDE}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.10+8b8e13593
+      鐢熸垚鍚姩鏃堕棿涓?2026/1/18 13:23:01銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.46
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/4.2.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/Anaconda/condabin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/"
+      - "C:/Program Files/Java/jdk-23/bin/"
+      - "C:/Program Files/Java/jdk-23/jre/bin/"
+      - "F:/database/MySQL/MySQL server 8.0/bin/"
+      - "F:/VMWare/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "F:/Git/cmd/"
+      - "F:/Bandizip/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/cursor/resources/app/codeBin/"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/npm/"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\Anaconda\\condabin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "D:\\CMake\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Program Files\\Java\\jdk-23\\bin"
+        - "C:\\Program Files\\Java\\jdk-23\\jre\\bin"
+        - "F:\\database\\MySQL\\MySQL server 8.0\\bin"
+        - "F:\\VMWare\\bin\\"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "F:\\Git\\cmd"
+        - "F:\\Bandizip\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "d:\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "F:\\PyCharm Community Edition 2024.2.2\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\npm"
+        - "F:\\IntelliJ IDEA Community Edition 2024.2.3\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python312\\Scripts"
+        - "D:\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/Anaconda/condabin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/"
+      - "C:/Program Files/Java/jdk-23/bin/"
+      - "C:/Program Files/Java/jdk-23/jre/bin/"
+      - "F:/database/MySQL/MySQL server 8.0/bin/"
+      - "F:/VMWare/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "F:/Git/cmd/"
+      - "F:/Bandizip/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/cursor/resources/app/codeBin/"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/npm/"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link"
+      - "D:/Anaconda/condabin/lld-link.com"
+      - "D:/Anaconda/condabin/lld-link.exe"
+      - "D:/Anaconda/condabin/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "D:/CMake/bin/lld-link.com"
+      - "D:/CMake/bin/lld-link.exe"
+      - "D:/CMake/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/lld-link"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/lld-link.com"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/lld-link"
+      - "C:/Program Files/Java/jdk-23/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-23/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-23/bin/lld-link"
+      - "C:/Program Files/Java/jdk-23/jre/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-23/jre/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-23/jre/bin/lld-link"
+      - "F:/database/MySQL/MySQL server 8.0/bin/lld-link.com"
+      - "F:/database/MySQL/MySQL server 8.0/bin/lld-link.exe"
+      - "F:/database/MySQL/MySQL server 8.0/bin/lld-link"
+      - "F:/VMWare/bin/lld-link.com"
+      - "F:/VMWare/bin/lld-link.exe"
+      - "F:/VMWare/bin/lld-link"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/lld-link.com"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/lld-link.exe"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "D:/Anaconda/lld-link.com"
+      - "D:/Anaconda/lld-link.exe"
+      - "D:/Anaconda/lld-link"
+      - "D:/Anaconda/Scripts/lld-link.com"
+      - "D:/Anaconda/Scripts/lld-link.exe"
+      - "D:/Anaconda/Scripts/lld-link"
+      - "D:/Anaconda/Library/bin/lld-link.com"
+      - "D:/Anaconda/Library/bin/lld-link.exe"
+      - "D:/Anaconda/Library/bin/lld-link"
+      - "D:/Anaconda/Library/usr/bin/lld-link.com"
+      - "D:/Anaconda/Library/usr/bin/lld-link.exe"
+      - "D:/Anaconda/Library/usr/bin/lld-link"
+      - "F:/Git/cmd/lld-link.com"
+      - "F:/Git/cmd/lld-link.exe"
+      - "F:/Git/cmd/lld-link"
+      - "F:/Bandizip/lld-link.com"
+      - "F:/Bandizip/lld-link.exe"
+      - "F:/Bandizip/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link"
+      - "D:/cursor/resources/app/bin/lld-link.com"
+      - "D:/cursor/resources/app/bin/lld-link.exe"
+      - "D:/cursor/resources/app/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "D:/cursor/resources/app/codeBin/lld-link.com"
+      - "D:/cursor/resources/app/codeBin/lld-link.exe"
+      - "D:/cursor/resources/app/codeBin/lld-link"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/lld-link.com"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/lld-link.exe"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/lld-link"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/lenovo/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/lenovo/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Roaming/npm/lld-link"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/lld-link.com"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/lld-link.exe"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/lld-link"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\Anaconda\\condabin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "D:\\CMake\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Program Files\\Java\\jdk-23\\bin"
+        - "C:\\Program Files\\Java\\jdk-23\\jre\\bin"
+        - "F:\\database\\MySQL\\MySQL server 8.0\\bin"
+        - "F:\\VMWare\\bin\\"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "F:\\Git\\cmd"
+        - "F:\\Bandizip\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "d:\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "F:\\PyCharm Community Edition 2024.2.2\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\npm"
+        - "F:\\IntelliJ IDEA Community Edition 2024.2.3\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python312\\Scripts"
+        - "D:\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/Anaconda/condabin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/"
+      - "C:/Program Files/Java/jdk-23/bin/"
+      - "C:/Program Files/Java/jdk-23/jre/bin/"
+      - "F:/database/MySQL/MySQL server 8.0/bin/"
+      - "F:/VMWare/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "F:/Git/cmd/"
+      - "F:/Bandizip/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/cursor/resources/app/codeBin/"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/npm/"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\Anaconda\\condabin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "D:\\CMake\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Program Files\\Java\\jdk-23\\bin"
+        - "C:\\Program Files\\Java\\jdk-23\\jre\\bin"
+        - "F:\\database\\MySQL\\MySQL server 8.0\\bin"
+        - "F:\\VMWare\\bin\\"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "F:\\Git\\cmd"
+        - "F:\\Bandizip\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "d:\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "F:\\PyCharm Community Edition 2024.2.2\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\npm"
+        - "F:\\IntelliJ IDEA Community Edition 2024.2.3\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python312\\Scripts"
+        - "D:\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/Anaconda/condabin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/"
+      - "C:/Program Files/Java/jdk-23/bin/"
+      - "C:/Program Files/Java/jdk-23/jre/bin/"
+      - "F:/database/MySQL/MySQL server 8.0/bin/"
+      - "F:/VMWare/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "F:/Git/cmd/"
+      - "F:/Bandizip/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/cursor/resources/app/codeBin/"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/npm/"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/mt"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/mt.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\Anaconda\\condabin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "D:\\CMake\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Program Files\\Java\\jdk-23\\bin"
+        - "C:\\Program Files\\Java\\jdk-23\\jre\\bin"
+        - "F:\\database\\MySQL\\MySQL server 8.0\\bin"
+        - "F:\\VMWare\\bin\\"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "F:\\Git\\cmd"
+        - "F:\\Bandizip\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "d:\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "F:\\PyCharm Community Edition 2024.2.2\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\npm"
+        - "F:\\IntelliJ IDEA Community Edition 2024.2.3\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python312\\Scripts"
+        - "D:\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/Anaconda/condabin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/"
+      - "C:/Program Files/Java/jdk-23/bin/"
+      - "C:/Program Files/Java/jdk-23/jre/bin/"
+      - "F:/database/MySQL/MySQL server 8.0/bin/"
+      - "F:/VMWare/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "F:/Git/cmd/"
+      - "F:/Bandizip/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/cursor/resources/app/codeBin/"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/npm/"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\Anaconda\\condabin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "D:\\CMake\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Program Files\\Java\\jdk-23\\bin"
+        - "C:\\Program Files\\Java\\jdk-23\\jre\\bin"
+        - "F:\\database\\MySQL\\MySQL server 8.0\\bin"
+        - "F:\\VMWare\\bin\\"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "F:\\Git\\cmd"
+        - "F:\\Bandizip\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "d:\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "F:\\PyCharm Community Edition 2024.2.2\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\npm"
+        - "F:\\IntelliJ IDEA Community Edition 2024.2.3\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python312\\Scripts"
+        - "D:\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/CMake/share/cmake-4.2/Modules/"
+    found: "D:/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\Anaconda\\condabin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "D:\\CMake\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Program Files\\Java\\jdk-23\\bin"
+        - "C:\\Program Files\\Java\\jdk-23\\jre\\bin"
+        - "F:\\database\\MySQL\\MySQL server 8.0\\bin"
+        - "F:\\VMWare\\bin\\"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "F:\\Git\\cmd"
+        - "F:\\Bandizip\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "d:\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "F:\\PyCharm Community Edition 2024.2.2\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\npm"
+        - "F:\\IntelliJ IDEA Community Edition 2024.2.3\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python312\\Scripts"
+        - "D:\\Microsoft VS Code\\bin"
+      ENV{INCLUDE}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.10+8b8e13593
+      鐢熸垚鍚姩鏃堕棿涓?2026/1/18 13:23:01銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.46
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/4.2.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/Anaconda/condabin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/"
+      - "C:/Program Files/Java/jdk-23/bin/"
+      - "C:/Program Files/Java/jdk-23/jre/bin/"
+      - "F:/database/MySQL/MySQL server 8.0/bin/"
+      - "F:/VMWare/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "F:/Git/cmd/"
+      - "F:/Bandizip/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/cursor/resources/app/codeBin/"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/npm/"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/"
+      - "D:/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link"
+      - "D:/Anaconda/condabin/lld-link.com"
+      - "D:/Anaconda/condabin/lld-link.exe"
+      - "D:/Anaconda/condabin/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "D:/CMake/bin/lld-link.com"
+      - "D:/CMake/bin/lld-link.exe"
+      - "D:/CMake/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/lld-link"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/lld-link.com"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/lld-link"
+      - "C:/Program Files/Java/jdk-23/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-23/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-23/bin/lld-link"
+      - "C:/Program Files/Java/jdk-23/jre/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-23/jre/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-23/jre/bin/lld-link"
+      - "F:/database/MySQL/MySQL server 8.0/bin/lld-link.com"
+      - "F:/database/MySQL/MySQL server 8.0/bin/lld-link.exe"
+      - "F:/database/MySQL/MySQL server 8.0/bin/lld-link"
+      - "F:/VMWare/bin/lld-link.com"
+      - "F:/VMWare/bin/lld-link.exe"
+      - "F:/VMWare/bin/lld-link"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/lld-link.com"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/lld-link.exe"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "D:/Anaconda/lld-link.com"
+      - "D:/Anaconda/lld-link.exe"
+      - "D:/Anaconda/lld-link"
+      - "D:/Anaconda/Scripts/lld-link.com"
+      - "D:/Anaconda/Scripts/lld-link.exe"
+      - "D:/Anaconda/Scripts/lld-link"
+      - "D:/Anaconda/Library/bin/lld-link.com"
+      - "D:/Anaconda/Library/bin/lld-link.exe"
+      - "D:/Anaconda/Library/bin/lld-link"
+      - "D:/Anaconda/Library/usr/bin/lld-link.com"
+      - "D:/Anaconda/Library/usr/bin/lld-link.exe"
+      - "D:/Anaconda/Library/usr/bin/lld-link"
+      - "F:/Git/cmd/lld-link.com"
+      - "F:/Git/cmd/lld-link.exe"
+      - "F:/Git/cmd/lld-link"
+      - "F:/Bandizip/lld-link.com"
+      - "F:/Bandizip/lld-link.exe"
+      - "F:/Bandizip/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/lld-link"
+      - "D:/cursor/resources/app/bin/lld-link.com"
+      - "D:/cursor/resources/app/bin/lld-link.exe"
+      - "D:/cursor/resources/app/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "D:/cursor/resources/app/codeBin/lld-link.com"
+      - "D:/cursor/resources/app/codeBin/lld-link.exe"
+      - "D:/cursor/resources/app/codeBin/lld-link"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/lld-link.com"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/lld-link.exe"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/lld-link"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/lenovo/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/lenovo/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Roaming/npm/lld-link"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/lld-link.com"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/lld-link.exe"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/lld-link"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\Anaconda\\condabin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "D:\\CMake\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Program Files\\Java\\jdk-23\\bin"
+        - "C:\\Program Files\\Java\\jdk-23\\jre\\bin"
+        - "F:\\database\\MySQL\\MySQL server 8.0\\bin"
+        - "F:\\VMWare\\bin\\"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "F:\\Git\\cmd"
+        - "F:\\Bandizip\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "d:\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "F:\\PyCharm Community Edition 2024.2.2\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\npm"
+        - "F:\\IntelliJ IDEA Community Edition 2024.2.3\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python312\\Scripts"
+        - "D:\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "D:/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "D:/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/Anaconda/condabin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/"
+      - "C:/Program Files/Java/jdk-23/bin/"
+      - "C:/Program Files/Java/jdk-23/jre/bin/"
+      - "F:/database/MySQL/MySQL server 8.0/bin/"
+      - "F:/VMWare/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "F:/Git/cmd/"
+      - "F:/Bandizip/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/cursor/resources/app/codeBin/"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/npm/"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/CMake/bin/"
+      - "D:/CMake/sbin/"
+      - "D:/CMake/"
+      - "C:/Program Files/SkinningProject/bin/"
+      - "C:/Program Files/SkinningProject/sbin/"
+      - "C:/Program Files/SkinningProject/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/rc.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\Anaconda\\condabin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "D:\\CMake\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Program Files\\Java\\jdk-23\\bin"
+        - "C:\\Program Files\\Java\\jdk-23\\jre\\bin"
+        - "F:\\database\\MySQL\\MySQL server 8.0\\bin"
+        - "F:\\VMWare\\bin\\"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "F:\\Git\\cmd"
+        - "F:\\Bandizip\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "d:\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "F:\\PyCharm Community Edition 2024.2.2\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\npm"
+        - "F:\\IntelliJ IDEA Community Edition 2024.2.3\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python312\\Scripts"
+        - "D:\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SkinningProject"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files/SkinningProject"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-v84eev"
+      binary: "F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-v84eev"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-v84eev'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7e28e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.10+8b8e13593
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/18 13:23:02銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v84eev\\cmTC_7e28e.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v84eev\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_7e28e.dir\\Debug\\cmTC_7e28e.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_7e28e.dir\\Debug\\cmTC_7e28e.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_7e28e.dir\\Debug\\cmTC_7e28e.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7e28e.dir\\Debug\\\\" /Fd"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v84eev\\cmTC_7e28e.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35208 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7e28e.dir\\Debug\\\\" /Fd"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v84eev\\cmTC_7e28e.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe /OUT:"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v84eev\\Debug\\cmTC_7e28e.exe" /INCREMENTAL /ILK:"cmTC_7e28e.dir\\Debug\\cmTC_7e28e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-v84eev/Debug/cmTC_7e28e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-v84eev/Debug/cmTC_7e28e.lib" /MACHINE:X64  /machine:x64 cmTC_7e28e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7e28e.vcxproj -> F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v84eev\\Debug\\cmTC_7e28e.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_7e28e.dir\\Debug\\cmTC_7e28e.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_7e28e.dir\\Debug\\cmTC_7e28e.tlog\\cmTC_7e28e.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v84eev\\cmTC_7e28e.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35208.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-el0iy2"
+      binary: "F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-el0iy2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-el0iy2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6f705.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.10+8b8e13593
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/18 13:23:03銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el0iy2\\cmTC_6f705.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el0iy2\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6f705.dir\\Debug\\cmTC_6f705.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_6f705.dir\\Debug\\cmTC_6f705.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_6f705.dir\\Debug\\cmTC_6f705.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_6f705.dir\\Debug\\\\" /Fd"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el0iy2\\cmTC_6f705.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35208 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_6f705.dir\\Debug\\\\" /Fd"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el0iy2\\cmTC_6f705.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe /OUT:"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el0iy2\\Debug\\cmTC_6f705.exe" /INCREMENTAL /ILK:"cmTC_6f705.dir\\Debug\\cmTC_6f705.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-el0iy2/Debug/cmTC_6f705.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-el0iy2/Debug/cmTC_6f705.lib" /MACHINE:X64  /machine:x64 cmTC_6f705.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6f705.vcxproj -> F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el0iy2\\Debug\\cmTC_6f705.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_6f705.dir\\Debug\\cmTC_6f705.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_6f705.dir\\Debug\\cmTC_6f705.tlog\\cmTC_6f705.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el0iy2\\cmTC_6f705.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.46
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35208.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "D:/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-cxxp2l"
+      binary: "F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-cxxp2l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/mygithub/ATCA/SkinningProject/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-cxxp2l'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_004c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.10+8b8e13593
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/18 13:23:03銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\cmTC_004c9.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_004c9.dir\\Debug\\cmTC_004c9.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_004c9.dir\\Debug\\cmTC_004c9.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_004c9.dir\\Debug\\cmTC_004c9.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_004c9.dir\\Debug\\\\" /Fd"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\cmTC_004c9.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35208 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_004c9.dir\\Debug\\\\" /Fd"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\cmTC_004c9.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\src.c"
+          src.c
+        F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\src.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\cmTC_004c9.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\cmTC_004c9.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\cmTC_004c9.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\src.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxxp2l\\cmTC_004c9.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-8yyyas"
+      binary: "F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-8yyyas"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/mygithub/ATCA/SkinningProject/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-8yyyas'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_72ec8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.10+8b8e13593
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/18 13:23:04銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\cmTC_72ec8.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_72ec8.dir\\Debug\\cmTC_72ec8.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_72ec8.dir\\Debug\\cmTC_72ec8.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_72ec8.dir\\Debug\\cmTC_72ec8.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_72ec8.dir\\Debug\\\\" /Fd"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\cmTC_72ec8.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35208 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_72ec8.dir\\Debug\\\\" /Fd"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\cmTC_72ec8.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe /OUT:"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\Debug\\cmTC_72ec8.exe" /INCREMENTAL /ILK:"cmTC_72ec8.dir\\Debug\\cmTC_72ec8.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-8yyyas/Debug/cmTC_72ec8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-8yyyas/Debug/cmTC_72ec8.lib" /MACHINE:X64  /machine:x64 cmTC_72ec8.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\cmTC_72ec8.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\cmTC_72ec8.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\cmTC_72ec8.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yyyas\\cmTC_72ec8.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-v8jdsr"
+      binary: "F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-v8jdsr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/mygithub/ATCA/SkinningProject/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-v8jdsr'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_74d93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.10+8b8e13593
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/18 13:23:04銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\cmTC_74d93.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_74d93.dir\\Debug\\cmTC_74d93.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_74d93.dir\\Debug\\cmTC_74d93.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_74d93.dir\\Debug\\cmTC_74d93.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_74d93.dir\\Debug\\\\" /Fd"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\cmTC_74d93.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35208 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_74d93.dir\\Debug\\\\" /Fd"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\cmTC_74d93.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe /OUT:"F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\Debug\\cmTC_74d93.exe" /INCREMENTAL /ILK:"cmTC_74d93.dir\\Debug\\cmTC_74d93.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-v8jdsr/Debug/cmTC_74d93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/mygithub/ATCA/SkinningProject/build/CMakeFiles/CMakeScratch/TryCompile-v8jdsr/Debug/cmTC_74d93.lib" /MACHINE:X64  /machine:x64 cmTC_74d93.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\cmTC_74d93.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\cmTC_74d93.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\cmTC_74d93.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[F:\\mygithub\\ATCA\\SkinningProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8jdsr\\cmTC_74d93.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/FindDoxygen.cmake:770 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindDoxygen.cmake:955 (_Doxygen_find_doxygen)"
+      - "external/glfw/docs/CMakeLists.txt:35 (find_package)"
+    mode: "program"
+    variable: "DOXYGEN_EXECUTABLE"
+    description: "Doxygen documentation generation tool (https://www.doxygen.nl)"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "doxygen"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/Anaconda/condabin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "D:/CMake/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/"
+      - "C:/Program Files/Java/jdk-23/bin/"
+      - "C:/Program Files/Java/jdk-23/jre/bin/"
+      - "F:/database/MySQL/MySQL server 8.0/bin/"
+      - "F:/VMWare/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "F:/Git/cmd/"
+      - "F:/Bandizip/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "D:/cursor/resources/app/codeBin/"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/npm/"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/CMake/bin/"
+      - "D:/CMake/sbin/"
+      - "D:/CMake/"
+      - "C:/Program Files/SkinningProject/bin/"
+      - "C:/Program Files/SkinningProject/sbin/"
+      - "C:/Program Files/SkinningProject/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/Applications/Doxygen.app/Contents/Resources/"
+      - "/Applications/Doxygen.app/Contents/MacOS/"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/doxygen.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/doxygen.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/doxygen"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/doxygen.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/doxygen.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/doxygen"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/doxygen.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/doxygen.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/doxygen"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/doxygen.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/doxygen.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.7.2 Tools/doxygen"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/doxygen.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/doxygen.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/doxygen"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/doxygen.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/doxygen.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/doxygen"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/doxygen.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/doxygen.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/doxygen"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/doxygen.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/doxygen.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/doxygen"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/doxygen.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/doxygen.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/doxygen"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/doxygen.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/doxygen.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/doxygen"
+      - "D:/Anaconda/condabin/doxygen.com"
+      - "D:/Anaconda/condabin/doxygen.exe"
+      - "D:/Anaconda/condabin/doxygen"
+      - "C:/msys64/ucrt64/bin/doxygen.com"
+      - "C:/msys64/ucrt64/bin/doxygen.exe"
+      - "C:/msys64/ucrt64/bin/doxygen"
+      - "D:/CMake/bin/doxygen.com"
+      - "D:/CMake/bin/doxygen.exe"
+      - "D:/CMake/bin/doxygen"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/doxygen.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/doxygen.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/doxygen"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/doxygen.com"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/doxygen.exe"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/platform-tools/doxygen"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/doxygen.com"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/doxygen.exe"
+      - "C:/Users/lenovo/AppData/Local/Android/Sdk/doxygen"
+      - "C:/Program Files/Java/jdk-23/bin/doxygen.com"
+      - "C:/Program Files/Java/jdk-23/bin/doxygen.exe"
+      - "C:/Program Files/Java/jdk-23/bin/doxygen"
+      - "C:/Program Files/Java/jdk-23/jre/bin/doxygen.com"
+      - "C:/Program Files/Java/jdk-23/jre/bin/doxygen.exe"
+      - "C:/Program Files/Java/jdk-23/jre/bin/doxygen"
+      - "F:/database/MySQL/MySQL server 8.0/bin/doxygen.com"
+      - "F:/database/MySQL/MySQL server 8.0/bin/doxygen.exe"
+      - "F:/database/MySQL/MySQL server 8.0/bin/doxygen"
+      - "F:/VMWare/bin/doxygen.com"
+      - "F:/VMWare/bin/doxygen.exe"
+      - "F:/VMWare/bin/doxygen"
+      - "C:/Program Files (x86)/GnuWin32/bin/doxygen.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/doxygen.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/doxygen"
+      - "C:/Windows/System32/doxygen.com"
+      - "C:/Windows/System32/doxygen.exe"
+      - "C:/Windows/System32/doxygen"
+      - "C:/Windows/doxygen.com"
+      - "C:/Windows/doxygen.exe"
+      - "C:/Windows/doxygen"
+      - "C:/Windows/System32/wbem/doxygen.com"
+      - "C:/Windows/System32/wbem/doxygen.exe"
+      - "C:/Windows/System32/wbem/doxygen"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen"
+      - "C:/Windows/System32/OpenSSH/doxygen.com"
+      - "C:/Windows/System32/OpenSSH/doxygen.exe"
+      - "C:/Windows/System32/OpenSSH/doxygen"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/doxygen.com"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/doxygen.exe"
+      - "D:/ffmpeg-8.0.1-essentials_build/bin/doxygen"
+      - "C:/Program Files/dotnet/doxygen.com"
+      - "C:/Program Files/dotnet/doxygen.exe"
+      - "C:/Program Files/dotnet/doxygen"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen"
+      - "D:/Anaconda/doxygen.com"
+      - "D:/Anaconda/doxygen.exe"
+      - "D:/Anaconda/doxygen"
+      - "D:/Anaconda/Scripts/doxygen.com"
+      - "D:/Anaconda/Scripts/doxygen.exe"
+      - "D:/Anaconda/Scripts/doxygen"
+      - "D:/Anaconda/Library/bin/doxygen.com"
+      - "D:/Anaconda/Library/bin/doxygen.exe"
+      - "D:/Anaconda/Library/bin/doxygen"
+      - "D:/Anaconda/Library/usr/bin/doxygen.com"
+      - "D:/Anaconda/Library/usr/bin/doxygen.exe"
+      - "D:/Anaconda/Library/usr/bin/doxygen"
+      - "F:/Git/cmd/doxygen.com"
+      - "F:/Git/cmd/doxygen.exe"
+      - "F:/Git/cmd/doxygen"
+      - "F:/Bandizip/doxygen.com"
+      - "F:/Bandizip/doxygen.exe"
+      - "F:/Bandizip/doxygen"
+      - "C:/Program Files/Docker/Docker/resources/bin/doxygen.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/doxygen.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/doxygen"
+      - "C:/Program Files/nodejs/doxygen.com"
+      - "C:/Program Files/nodejs/doxygen.exe"
+      - "C:/Program Files/nodejs/doxygen"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/doxygen.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/doxygen.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/doxygen"
+      - "D:/cursor/resources/app/bin/doxygen.com"
+      - "D:/cursor/resources/app/bin/doxygen.exe"
+      - "D:/cursor/resources/app/bin/doxygen"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/doxygen.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/doxygen.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/doxygen"
+      - "D:/cursor/resources/app/codeBin/doxygen.com"
+      - "D:/cursor/resources/app/codeBin/doxygen.exe"
+      - "D:/cursor/resources/app/codeBin/doxygen"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/doxygen.com"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/doxygen.exe"
+      - "C:/Users/lenovo/AppData/Local/Programs/Python/Launcher/doxygen"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/doxygen.com"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/doxygen.exe"
+      - "C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps/doxygen"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/doxygen.com"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/doxygen.exe"
+      - "F:/PyCharm Community Edition 2024.2.2/bin/doxygen"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/doxygen.com"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/doxygen.exe"
+      - "C:/Users/lenovo/AppData/Local/GitHubDesktop/bin/doxygen"
+      - "C:/Users/lenovo/AppData/Roaming/npm/doxygen.com"
+      - "C:/Users/lenovo/AppData/Roaming/npm/doxygen.exe"
+      - "C:/Users/lenovo/AppData/Roaming/npm/doxygen"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/doxygen.com"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/doxygen.exe"
+      - "F:/IntelliJ IDEA Community Edition 2024.2.3/bin/doxygen"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/doxygen.com"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/doxygen.exe"
+      - "C:/Users/lenovo/AppData/Roaming/Python/Python312/Scripts/doxygen"
+      - "D:/Microsoft VS Code/bin/doxygen.com"
+      - "D:/Microsoft VS Code/bin/doxygen.exe"
+      - "D:/Microsoft VS Code/bin/doxygen"
+      - "C:/Program Files/bin/doxygen.com"
+      - "C:/Program Files/bin/doxygen.exe"
+      - "C:/Program Files/bin/doxygen"
+      - "C:/Program Files/sbin/doxygen.com"
+      - "C:/Program Files/sbin/doxygen.exe"
+      - "C:/Program Files/sbin/doxygen"
+      - "C:/Program Files/doxygen.com"
+      - "C:/Program Files/doxygen.exe"
+      - "C:/Program Files/doxygen"
+      - "C:/Program Files (x86)/bin/doxygen.com"
+      - "C:/Program Files (x86)/bin/doxygen.exe"
+      - "C:/Program Files (x86)/bin/doxygen"
+      - "C:/Program Files (x86)/sbin/doxygen.com"
+      - "C:/Program Files (x86)/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/sbin/doxygen"
+      - "C:/Program Files (x86)/doxygen.com"
+      - "C:/Program Files (x86)/doxygen.exe"
+      - "C:/Program Files (x86)/doxygen"
+      - "D:/CMake/bin/doxygen.com"
+      - "D:/CMake/bin/doxygen.exe"
+      - "D:/CMake/bin/doxygen"
+      - "D:/CMake/sbin/doxygen.com"
+      - "D:/CMake/sbin/doxygen.exe"
+      - "D:/CMake/sbin/doxygen"
+      - "D:/CMake/doxygen.com"
+      - "D:/CMake/doxygen.exe"
+      - "D:/CMake/doxygen"
+      - "C:/Program Files/SkinningProject/bin/doxygen.com"
+      - "C:/Program Files/SkinningProject/bin/doxygen.exe"
+      - "C:/Program Files/SkinningProject/bin/doxygen"
+      - "C:/Program Files/SkinningProject/sbin/doxygen.com"
+      - "C:/Program Files/SkinningProject/sbin/doxygen.exe"
+      - "C:/Program Files/SkinningProject/sbin/doxygen"
+      - "C:/Program Files/SkinningProject/doxygen.com"
+      - "C:/Program Files/SkinningProject/doxygen.exe"
+      - "C:/Program Files/SkinningProject/doxygen"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.com"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.exe"
+      - "/REGISTRY-NOTFOUND/bin/doxygen"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\Anaconda\\condabin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "D:\\CMake\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Program Files\\Java\\jdk-23\\bin"
+        - "C:\\Program Files\\Java\\jdk-23\\jre\\bin"
+        - "F:\\database\\MySQL\\MySQL server 8.0\\bin"
+        - "F:\\VMWare\\bin\\"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "F:\\Git\\cmd"
+        - "F:\\Bandizip\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "d:\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "F:\\PyCharm Community Edition 2024.2.2\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\npm"
+        - "F:\\IntelliJ IDEA Community Edition 2024.2.3\\bin"
+        - "C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python312\\Scripts"
+        - "D:\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SkinningProject"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files/SkinningProject"
+...

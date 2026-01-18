@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/mygithub/ATCA/SkinningProject/build/cmake_install.cmake",
+		"F:/mygithub/ATCA/SkinningProject/build/external/glfw/cmake_install.cmake",
+		"F:/mygithub/ATCA/SkinningProject/build/external/glfw/src/cmake_install.cmake",
+		"F:/mygithub/ATCA/SkinningProject/build/external/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

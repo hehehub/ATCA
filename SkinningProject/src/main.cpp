@@ -28,81 +28,37 @@ Mesh mesh;
 Skeleton skeleton;
 unsigned int VAO, VBO, EBO;
 
-void buildGlobalPose(int boneIdx, Skeleton &skeleton)
-{
-    int parent = skeleton.bones[boneIdx].parent;
-    if (parent != -1)
-    {
-        skeleton.bones[boneIdx].poseMatrix =
-            skeleton.bones[parent].poseMatrix *
-            skeleton.bones[parent].invRestMatrix *
-            skeleton.bones[boneIdx].poseMatrix;
-    }
-
-    for (int i = 0; i < (int)skeleton.bones.size(); ++i)
-    {
-        if (skeleton.bones[i].parent == boneIdx)
-        {
-            buildGlobalPose(i, skeleton);
-        }
-    }
-}
-
 // 动画函数：简单的行走动画
+// 完全独立的腿部行走动画
 void updateWalkingAnimation(float time, Skeleton &skeleton)
 {
     // 1. 重置所有骨骼到 rest pose
     for (auto &b : skeleton.bones)
         b.poseMatrix = b.restMatrix;
 
-    // 2. 找关键骨骼
-    int root = -1;
-    int thighL = -1, shinL = -1;
-    int thighR = -1, shinR = -1;
+    // 2. 下半身骨骼索引
+    int thighL = 149, shinL = 150, footL = 151;
+    int thighR = 154, shinR = 155, footR = 156;
 
-    for (int i = 0; i < (int)skeleton.bones.size(); ++i)
-    {
-        const std::string &n = skeleton.bones[i].name;
-        if (n == "spine")
-            root = i;
-        else if (n == "thigh.L")
-            thighL = i;
-        else if (n == "shin.L")
-            shinL = i;
-        else if (n == "thigh.R")
-            thighR = i;
-        else if (n == "shin.R")
-            shinR = i;
-    }
+    // 3. 行走相位
+    float phase = std::sin(time * 3.0f);
+    float lift = std::abs(phase) * 0.15f; // 脚离地高度
 
-    if (thighL < 0 || shinL < 0 || thighR < 0 || shinR < 0 || root < 0)
-    {
-        std::cout << "leg or root bones not found\n";
-        return;
-    }
+    // --- 左腿 ---
+    skeleton.bones[thighL].poseMatrix = skeleton.bones[thighL].restMatrix *
+                                        glm::rotate(glm::mat4(1.0f), phase * 0.5f, glm::vec3(1, 0, 0));
+    skeleton.bones[shinL].poseMatrix = skeleton.bones[shinL].restMatrix *
+                                       glm::rotate(glm::mat4(1.0f), std::max(0.0f, -phase) * 0.7f, glm::vec3(1, 0, 0));
+    skeleton.bones[footL].poseMatrix = skeleton.bones[footL].restMatrix *
+                                       glm::rotate(glm::mat4(1.0f), lift, glm::vec3(1, 0, 0));
 
-    // 3. 根骨固定，不随腿摆动
-    skeleton.bones[root].poseMatrix = skeleton.bones[root].restMatrix;
-
-    // 4. 行走相位
-    float phase = std::sin(time * 2.0f);
-
-    // 5. 只改变腿骨局部旋转
-    skeleton.bones[thighL].poseMatrix =
-        skeleton.bones[thighL].restMatrix *
-        glm::rotate(glm::mat4(1.0f), phase * 0.6f, glm::vec3(1, 0, 0));
-
-    skeleton.bones[shinL].poseMatrix =
-        skeleton.bones[shinL].restMatrix *
-        glm::rotate(glm::mat4(1.0f), std::max(0.0f, -phase) * 0.8f, glm::vec3(1, 0, 0));
-
-    skeleton.bones[thighR].poseMatrix =
-        skeleton.bones[thighR].restMatrix *
-        glm::rotate(glm::mat4(1.0f), -phase * 0.6f, glm::vec3(1, 0, 0));
-
-    skeleton.bones[shinR].poseMatrix =
-        skeleton.bones[shinR].restMatrix *
-        glm::rotate(glm::mat4(1.0f), std::max(0.0f, phase) * 0.8f, glm::vec3(1, 0, 0));
+    // --- 右腿 ---
+    skeleton.bones[thighR].poseMatrix = skeleton.bones[thighR].restMatrix *
+                                        glm::rotate(glm::mat4(1.0f), -phase * 0.5f, glm::vec3(1, 0, 0));
+    skeleton.bones[shinR].poseMatrix = skeleton.bones[shinR].restMatrix *
+                                       glm::rotate(glm::mat4(1.0f), std::max(0.0f, phase) * 0.7f, glm::vec3(1, 0, 0));
+    skeleton.bones[footR].poseMatrix = skeleton.bones[footR].restMatrix *
+                                       glm::rotate(glm::mat4(1.0f), lift, glm::vec3(1, 0, 0));
 }
 
 // 保存帧到文件
@@ -203,27 +159,9 @@ void setupMesh()
     glBindVertexArray(0);
 }
 
-void render()
+// --- 计算骨骼矩阵供渲染使用 ---
+std::vector<glm::mat4> computeBoneMatrices(const Skeleton &skeleton)
 {
-    glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-    shader.use();
-
-    // 设置变换矩阵
-    glm::mat4 model = glm::mat4(1.0f);
-    glm::mat4 view = glm::lookAt(
-        glm::vec3(15, 5, 0), // 相机位置
-        glm::vec3(0, 4, 0),  // 看向中心
-        glm::vec3(0, 1, 0)   // 上方向
-    );
-    glm::mat4 projection = glm::perspective(glm::radians(45.0f), (float)WINDOW_WIDTH / WINDOW_HEIGHT, 0.1f, 100.0f);
-
-    shader.setMat4("uModel", model);
-    shader.setMat4("uView", view);
-    shader.setMat4("uProjection", projection);
-
-    // 计算骨骼变换矩阵（从rest pose到当前pose）
     std::vector<glm::mat4> boneMatrices(skeleton.bones.size());
 
     for (size_t i = 0; i < skeleton.bones.size(); ++i)
@@ -232,16 +170,42 @@ void render()
 
         if (p == -1)
         {
-            // 根骨直接使用局部 pose * invRest
-            // spine 固定
+            // 根骨骼
             boneMatrices[i] = skeleton.bones[i].poseMatrix * skeleton.bones[i].invRestMatrix;
         }
         else
         {
-            // 父骨是 spine/root 时，累乘父骨，但 spine 不随腿摆动
+            // 所有骨骼都累乘父骨骼
             boneMatrices[i] = boneMatrices[p] * skeleton.bones[i].poseMatrix * skeleton.bones[i].invRestMatrix;
         }
     }
+
+    return boneMatrices;
+}
+
+// --- 渲染函数 ---
+void render()
+{
+    glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    shader.use();
+
+    // 变换矩阵
+    glm::mat4 model = glm::mat4(1.0f);
+    glm::mat4 view = glm::lookAt(glm::vec3(0, 5, 15),
+                                 glm::vec3(0, 4, 0),
+                                 glm::vec3(0, 1, 0));
+    glm::mat4 projection = glm::perspective(glm::radians(45.0f),
+                                            (float)WINDOW_WIDTH / WINDOW_HEIGHT,
+                                            0.1f, 100.0f);
+
+    shader.setMat4("uModel", model);
+    shader.setMat4("uView", view);
+    shader.setMat4("uProjection", projection);
+
+    // 计算骨骼矩阵
+    std::vector<glm::mat4> boneMatrices = computeBoneMatrices(skeleton);
 
     shader.setMat4Array("uBoneMatrices", boneMatrices);
 
@@ -250,7 +214,7 @@ void render()
     shader.setVec3("uLightColor", glm::vec3(1.0f, 1.0f, 1.0f));
     shader.setVec3("uViewPos", glm::vec3(0, 5, 15));
 
-    // 渲染网格
+    // 绘制网格
     glBindVertexArray(VAO);
     glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(mesh.indices.size()), GL_UNSIGNED_INT, 0);
     glBindVertexArray(0);
@@ -284,6 +248,13 @@ int main()
     // 3. 计算热传导权重
     std::cout << "Computing heat diffusion weithts..." << std::endl;
     HeatSkinning::computeWeights(mesh, skeleton);
+    // for (int v = 0; v < 100; v++)
+    // {
+    //     std::cout << "Vertex " << v << " weights: ";
+    //     for (int b = 0; b < 4; b++)
+    //         std::cout << mesh.vertices[v].weights[b] << "(" << mesh.vertices[v].boneIDs[b] << ") ";
+    //     std::cout << std::endl;
+    // }
 
     // 4. 初始化OpenGL
     std::cout << "Initializing OpenGL..." << std::endl;
@@ -314,12 +285,6 @@ int main()
     for (int frame = 0; frame < TOTAL_FRAMES; frame++)
     {
         float time = (float)frame / FPS;
-
-        // 调试：打印前几帧的帧号和时间
-        if (frame < 5 || frame == 150 || frame == 300)
-        {
-            std::cout << "\n=== Frame " << frame << " === time=" << time << std::endl;
-        }
 
         // 更新动画
         updateWalkingAnimation(time, skeleton);
